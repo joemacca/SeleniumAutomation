@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.testAmazon" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-13T07:31:00" hostname="LAPTOP-DPM8RS30" time="49.129">
+  <properties/>
+  <testcase name="amazonSearchForBook" classname="com.amazon.testAmazon" time="49.129"/>
+  <system-out><![CDATA[***closed down browser, Test finished Successfully 
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 23722
+Only local connections are allowed.
+Jan 13, 2019 8:31:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

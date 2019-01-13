@@ -1,0 +1,53 @@
+group 'com.successfactors'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    testCompile 'com.codeborne:selenide:4.9.1'
+    testCompile 'org.testng:testng:6.8.21'
+    testCompile 'pl.pragmatists:JUnitParams:1.1.1'
+
+}
+
+def env = ".exe"; //assume windows
+if (org.gradle.internal.os.OperatingSystem.current().isMacOsX()){
+    env = "_mac";
+}
+if (org.gradle.internal.os.OperatingSystem.current().isLinux()){
+    env = "_linux";
+}
+
+test {
+    systemProperties = [
+            'file.encoding': 'UTF-8',
+            'selenide.browser': 'chrome',
+            'webdriver.chrome.driver' : "src/test/resources/chrome/chromedriver${env}"
+    ]
+    testLogging.showStandardStreams = true
+    systemProperty "browser", System.getProperty("browser", "Chrome")
+    systemProperty "browserName", System.getProperty("browserName", "")
+    systemProperty "url", System.getProperty("url", "")
+    systemProperty "mode", System.getProperty("mode", "")
+    systemProperty "os", System.getProperty("os", "windows")
+    systemProperty "os_version", System.getProperty("os_version", "10")
+    systemProperty "browser_version", System.getProperty("browser_version", "62.0")
+    systemProperty "resolution", System.getProperty("resolution", "1024x768")
+    systemProperty "device", System.getProperty("device", "")
+    systemProperty "platform", System.getProperty("platform", "")
+    systemProperty "realMobile", System.getProperty("realMobile", "false")
+    systemProperty "acceptSslCerts", System.getProperty("acceptSslCerts", "")
+    systemProperty "browserTesting", System.getProperty("browserTesting", "true")
+    systemProperty "valueToBeSearched", System.getProperty("valueToBeSearched", "Add New Employee")
+}
+
+
+
