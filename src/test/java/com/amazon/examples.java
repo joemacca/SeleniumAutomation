@@ -22,12 +22,12 @@ import static java.lang.Thread.sleep;
 
 @RunWith(JUnitParamsRunner.class)
 
-public class testTheHomePage extends baseTestTheHomePage {
+public class examples extends baseTestTheHomePage {
 
 //    public static String USERNAME = "robert1049";
-public static String USERNAME = "robertoureta3";
+public static String USERNAME = "";
 //    public static String AUTOMATE_KEY = "jHiuD4CFHSS3AB8sQQN3";
-public static String AUTOMATE_KEY = "WcHno2SvoajJzy25LzkK";
+public static String AUTOMATE_KEY = "";
     public static String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 
@@ -82,7 +82,7 @@ public static String AUTOMATE_KEY = "WcHno2SvoajJzy25LzkK";
 //        WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 //        driver.get("http://www.google.com");
 
-        driver.get("https://pmsalesdemo8.successfactors.com/login?company=SFPART016109#/login");
+        driver.get("");
         sleep(10000);
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 //        driver.findElement(By.id("__input1-inner")).sendKeys("crichardson");
@@ -213,7 +213,7 @@ public static String AUTOMATE_KEY = "WcHno2SvoajJzy25LzkK";
         WebDriver driver = new RemoteWebDriver(browserStackURL, caps);
         driver.manage().window().maximize();
 
-        driver.get("https://pmsalesdemo8.successfactors.com/login?company=SFPART016109#/login");
+        driver.get("");
         sleep(10000);
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
         driver.findElement(By.id("__input1-inner")).sendKeys("crichardson");
@@ -267,7 +267,7 @@ public static String AUTOMATE_KEY = "WcHno2SvoajJzy25LzkK";
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        driver.get("https://pmsalesdemo8.successfactors.com/login?company=SFPART016109#/login");
+        driver.get("");
         sleep(10000);
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 //        driver.findElement(By.id("__input1-inner")).sendKeys("crichardson");
