@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a600baf8-0be0-40ff-ad26-308839d459c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/runAmazonBrowserStackTest.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amazonBrowserStackTest.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runAddNewEmployeeTest.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runAmazonBrowserStackTest.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtest.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/testTheHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runAmazonBrowserStackTest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/runAmazonBrowserStackTest.bat" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -56,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runAmazonBrowserStackTest.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state>
+              <caret column="154" selection-start-column="154" selection-end-column="154" />
             </state>
           </provider>
         </entry>
@@ -74,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/amazon/examples.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="12">
@@ -116,6 +110,7 @@
         <option value="$PROJECT_DIR$/runAmazonLocalTest.cmd" />
         <option value="$PROJECT_DIR$/amazonBrowserStackTest.bat" />
         <option value="$PROJECT_DIR$/src/test/java/com/amazon/examples.java" />
+        <option value="$PROJECT_DIR$/runAmazonBrowserStackTest.bat" />
       </list>
     </option>
   </component>
@@ -177,7 +172,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547448048655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547448532238" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -207,12 +202,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547346573667</updated>
       <workItem from="1547346587038" duration="12144000" />
-      <workItem from="1547440008819" duration="2846000" />
+      <workItem from="1547440008819" duration="3226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14990000" />
+    <option name="totallyTimeSpent" value="15370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -299,13 +294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runAmazonBrowserStackTest.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/amazon/testAmazon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -324,6 +312,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
           <caret line="182" column="37" selection-start-line="182" selection-start-column="30" selection-end-line="182" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runAmazonBrowserStackTest.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="154" selection-start-column="154" selection-end-column="154" />
         </state>
       </provider>
     </entry>
