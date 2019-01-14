@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.amazon.testAmazon" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-13T09:33:53" hostname="LAPTOP-DPM8RS30" time="24.586">
+<testsuite name="com.amazon.testAmazon" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-14T06:24:21" hostname="LAPTOP-DPM8RS30" time="24.191">
   <properties/>
-  <testcase name="amazonSearchForBookViaBrowserStack" classname="com.amazon.testAmazon" time="24.586"/>
+  <testcase name="amazonSearchForBookViaBrowserStack" classname="com.amazon.testAmazon" time="24.191"/>
   <system-out><![CDATA[Typed in search box
 ***closed down browser, Test finished Successfully 
 ]]></system-out>
-  <system-err><![CDATA[Jan 13, 2019 10:34:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[Jan 14, 2019 7:24:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
 </testsuite>
