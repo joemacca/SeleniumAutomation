@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a600baf8-0be0-40ff-ad26-308839d459c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/runAmazonBrowserStackTest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/runAmazonBrowserStackTest.bat" afterDir="false" />
-    </list>
+    <list default="true" id="a600baf8-0be0-40ff-ad26-308839d459c5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runAmazonBrowserStackTest.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="154" selection-start-column="154" selection-end-column="154" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -172,7 +170,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547448532238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548133367793" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -202,12 +200,12 @@
       <option name="presentableId" value="Default" />
       <updated>1547346573667</updated>
       <workItem from="1547346587038" duration="12144000" />
-      <workItem from="1547440008819" duration="3226000" />
+      <workItem from="1547440008819" duration="3921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15370000" />
+    <option name="totallyTimeSpent" value="16065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -317,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runAmazonBrowserStackTest.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="154" selection-start-column="154" selection-end-column="154" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
