@@ -95,9 +95,24 @@ public class testAmazon extends baseTestTheHomePage {
         driver.manage().window().maximize();
 
         driver.get(URL);
+
         WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
         searchBox.sendKeys("hitchhikers");
         System.out.println("Typed in search box");
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        searchBox.sendKeys(Keys.ARROW_DOWN);
+        searchBox.sendKeys(Keys.RETURN);
+        System.out.println("Down arrow and enter keys pressed");
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        driver.findElement(By.linkText("The Hitchhiker's Guide to the Galaxy")).click();
+        System.out.println("Clicked on book link");
+
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        driver.findElement(By.id("add-to-cart-button")).click();
+        System.out.println("Added book to cart");
+
+
+        sleep(1000);
 
         driver.quit();
 
